@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b79ca2f-bbfe-48b3-a6c0-42142482f447" name="Default Changelist" comment="">
+    <list default="true" id="1048e294-f0c0-426b-8000-420f80c7a271" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LibrarySorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LibrarySorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <list id="20517fc2-7bee-48f3-814c-66a8b24b9cbf" name="Revert &quot;Sorted books&quot;" comment="Revert &quot;Sorted books&quot;&#10;&#10;This reverts commit c3ce358c">
       <change beforePath="$PROJECT_DIR$/src/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book.java" afterDir="false" />
@@ -43,6 +45,24 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -83,6 +103,7 @@
       <option name="project" value="LOCAL" />
       <updated>1582225322617</updated>
     </task>
+<<<<<<< Updated upstream
     <option name="localTasksCounter" value="5" />
     <servers />
   </component>
@@ -94,13 +115,40 @@
         <option value="3" />
         <option value="1" />
       </list>
+=======
+    <task id="LOCAL-00004" summary="main refactor">
+      <created>1582225116493</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1582225116493</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+>>>>>>> Stashed changes
     </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="Added library class" />
+<<<<<<< Updated upstream
     <MESSAGE value="Revert &quot;Sorted books&quot;&#10;&#10;This reverts commit c3ce358c" />
     <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;Sorted books&quot;&#10;&#10;This reverts commit c3ce358c" />
+=======
+    <MESSAGE value="Updated so that book works" />
+    <MESSAGE value="main refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="main refactor" />
+>>>>>>> Stashed changes
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>

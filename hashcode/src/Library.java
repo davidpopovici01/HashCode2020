@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Library {
@@ -28,6 +29,7 @@ public class Library {
     this.signUpDays = signUpDays;
     this.booksPerDay = booksPerDay;
     books = new ArrayList<>();
+    Collections.sort(books);
   }
 
   public void addBook(Book book) {
@@ -37,13 +39,13 @@ public class Library {
   public int calculateScore(int no) {
     int sum = 0;
     if (no == 0) {
-      return 0
+      return 0;
     }
     if (no > numberOfBooks) {
       no = numberOfBooks;
     }
     for (int i = 0; i < no; i++) {
-      sum += books.get(i);
+      sum += books.get(i).getScore();
     }
     return sum;
   }

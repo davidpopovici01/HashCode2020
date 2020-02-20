@@ -6,13 +6,16 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Main {
+    public static int signupCtr = 0;
+    public static int numberOfDays;
+    public List<Library> sortedLibraries = new ArrayList<>();
     public void main(String[] args) throws FileNotFoundException {
         Scanner scanner = new Scanner(new File(""));
         PrintStream printStream = new PrintStream(new File(""));
 
         int numberOfBooks = scanner.nextInt();
         int numberOfLibraries = scanner.nextInt();
-        int numberOfDays = scanner.nextInt();
+        numberOfDays = scanner.nextInt();
         int[] scores = new int[numberOfBooks];
         List<Library> libraries = new ArrayList<>();
         List<Book> books = new ArrayList<>();
@@ -28,6 +31,14 @@ public class Main {
                 Book book = books.get(scanner.nextInt());
                 currentLibrary.addBook(book);
             }
+        }
+
+
+        while((numberOfDays - signupCtr) > 0 && !libraries.isEmpty()) {
+            Library biggestLibrary = LibrarySorter.getBiggestLibrary(libraries);
+            sortedLibraries.add(biggestLibrary);
+            libraries.remove(biggestLibrary);
+            signupCtr += biggestLibrary.getSignUpDays();
         }
     }
 }
