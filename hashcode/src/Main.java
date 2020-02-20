@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Hashcode {
+public class Main {
     public void main(String[] args) throws FileNotFoundException {
         Scanner scanner = new Scanner(new File(""));
         PrintStream printStream = new PrintStream(new File(""));
