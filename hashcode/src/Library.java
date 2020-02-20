@@ -1,11 +1,12 @@
 import java.awt.print.Book;
 import java.util.ArrayList;
+import java.util.List;
 
 public class Library {
   private int numberOfBooks;
   private int signUpDays;
   private int booksPerDay;
-  private ArrayList<Book> books;
+  public List<Book> books;
 
   public int getNumberOfBooks() {
     return numberOfBooks;
@@ -19,7 +20,7 @@ public class Library {
     return booksPerDay;
   }
 
-  public ArrayList<Integer> getBooks() {
+  public List<Book> getBooks() {
     return books;
   }
 
@@ -33,5 +34,4 @@ public class Library {
   public void addBook(Book book) {
     books.add(book);
   }
-
 }

@@ -13,17 +13,20 @@ public class Hashcode {
         int numberOfBooks = scanner.nextInt();
         int numberOfLibraries = scanner.nextInt();
         int numberOfDays = scanner.nextInt();
-        List<Library> libraries = new ArrayList<>();
         int[] scores = new int[numberOfBooks];
+        List<Library> libraries = new ArrayList<>();
+        List<Book> books = new ArrayList<>();
 
         for (int i = 0; i < numberOfBooks; ++i) {
-            scores[i] = scanner.nextInt();
+            books.add(new Book(i, scanner.nextInt()));
         }
 
         for (int i = 0; i < numberOfLibraries; ++i) {
             libraries.add(new Library(scanner.nextInt(), scanner.nextInt(), scanner.nextInt()));
-            for (int j = 0; j < libraries.get(i).getNumberOfBooks(); ++j) {
-
+            Library currentLibrary = libraries.get(i);
+            for (int j = 0; j < currentLibrary.getNumberOfBooks(); ++j) {
+                Book book = books.get(scanner.nextInt());
+                currentLibrary.books.add(new Book(1,1));
             }
         }
     }
