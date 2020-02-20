@@ -12,8 +12,8 @@ public class Main {
     public static List<Library> signedUpLibraries = new ArrayList<>();
 
     public static void main(String[] args) throws FileNotFoundException {
-        Scanner scanner = new Scanner(new File(""));
-        PrintStream printStream = new PrintStream(new File(""));
+        Scanner scanner = new Scanner(new File("../c_incunabula.txt"));
+        PrintStream printStream = new PrintStream(new File("../c_output.txt"));
 
         int numberOfBooks = scanner.nextInt();
         int numberOfLibraries = scanner.nextInt();
@@ -47,7 +47,7 @@ public class Main {
             printStream.println(library.getIndex() + " " + library.getNumberOfBooksScanned());
             List<Book> booksScanned = library.getBooksScanned();
             for (Book book : booksScanned) {
-                printStream.print(book.getIndex());
+                printStream.print(book.getIndex() + " ");
             }
             printStream.println();
         }
