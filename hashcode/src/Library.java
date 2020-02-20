@@ -1,4 +1,3 @@
-import java.awt.print.Book;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -6,7 +5,7 @@ public class Library {
   private int numberOfBooks;
   private int signUpDays;
   private int booksPerDay;
-  public List<Book> books;
+  private List<Book> books;
 
   public int getNumberOfBooks() {
     return numberOfBooks;

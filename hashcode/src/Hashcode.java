@@ -26,7 +26,7 @@ public class Hashcode {
             Library currentLibrary = libraries.get(i);
             for (int j = 0; j < currentLibrary.getNumberOfBooks(); ++j) {
                 Book book = books.get(scanner.nextInt());
-                currentLibrary.books.add(new Book(1,1));
+                currentLibrary.addBook(book);
             }
         }
     }
