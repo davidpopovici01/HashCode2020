@@ -58,7 +58,7 @@ public class Library {
   }
 
   public int getNumberOfBooksScanned() {
-    return numberOfBooks * Integer.max(signUpDays, Main.numberOfDays - signUpDay);
+    return Integer.min(numberOfBooks, booksPerDay * (Main.numberOfDays - signUpDay));
   }
 
   public List<Book> getBooksScanned() {

@@ -47,7 +47,7 @@ public class Main {
         printStream.println(signedUpLibraries.size());
         for (Library library : signedUpLibraries) {
             printStream.println(library.getIndex() + " " + library.getNumberOfBooksScanned());
-            List<Book> booksScanned = new ArrayList<>();
+            List<Book> booksScanned = library.getBooksScanned();
             for (Book book : booksScanned) {
                 printStream.print(book.getIndex());
             }
