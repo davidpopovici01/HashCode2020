@@ -33,4 +33,18 @@ public class Library {
   public void addBook(Book book) {
     books.add(book);
   }
+
+  public int calculateScore(int no) {
+    int sum = 0;
+    if (no == 0) {
+      return 0
+    }
+    if (no > numberOfBooks) {
+      no = numberOfBooks;
+    }
+    for (int i = 0; i < no; i++) {
+      sum += books.get(i);
+    }
+    return sum;
+  }
 }
