@@ -9,6 +9,8 @@ public class Main {
     public static int signupCtr = 0;
     public static int numberOfDays;
     public List<Library> sortedLibraries = new ArrayList<>();
+    public List<Library> signedUpLibraries = new ArrayList<>();
+
     public void main(String[] args) throws FileNotFoundException {
         Scanner scanner = new Scanner(new File(""));
         PrintStream printStream = new PrintStream(new File(""));
@@ -25,7 +27,7 @@ public class Main {
         }
 
         for (int i = 0; i < numberOfLibraries; ++i) {
-            libraries.add(new Library(scanner.nextInt(), scanner.nextInt(), scanner.nextInt()));
+            libraries.add(new Library(scanner.nextInt(), scanner.nextInt(), scanner.nextInt(), i));
             Library currentLibrary = libraries.get(i);
             for (int j = 0; j < currentLibrary.getNumberOfBooks(); ++j) {
                 Book book = books.get(scanner.nextInt());
@@ -38,7 +40,18 @@ public class Main {
             Library biggestLibrary = LibrarySorter.getBiggestLibrary(libraries);
             sortedLibraries.add(biggestLibrary);
             libraries.remove(biggestLibrary);
+            signedUpLibraries.add(biggestLibrary);
             signupCtr += biggestLibrary.getSignUpDays();
+        }
+
+        printStream.println(signedUpLibraries.size());
+        for (Library library : signedUpLibraries) {
+            printStream.println(library.getIndex() + " " + library.getNumberOfBooksScanned());
+            List<Book> booksScanned = new ArrayList<>();
+            for (Book book : booksScanned) {
+                printStream.print(book.getIndex());
+            }
+            printStream.println();
         }
     }
 }
