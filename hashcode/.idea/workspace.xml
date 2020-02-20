@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3b79ca2f-bbfe-48b3-a6c0-42142482f447" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hashcode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hashcode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Library.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,37 +57,45 @@
       <option name="project" value="LOCAL" />
       <updated>1582223103051</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Updated so that book works">
+      <created>1582224405015</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582224405015</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="Added library class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added library class" />
+    <MESSAGE value="Updated so that book works" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated so that book works" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1582223329321">
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1582224793292">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1582223329321" />
-    <state x="335" y="0" key="CommitChangelistDialog2" timestamp="1582223102639">
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1582224793292" />
+    <state x="335" y="0" key="CommitChangelistDialog2" timestamp="1582224404591">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="335" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1582223102639" />
+    <state x="335" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1582224404591" />
     <state x="387" y="71" key="MultipleFileMergeDialog" timestamp="1582224131386">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="387" y="71" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1582224131386" />
-    <state x="275" y="93" key="Vcs.Push.Dialog.v2" timestamp="1582223109483">
+    <state x="275" y="93" key="Vcs.Push.Dialog.v2" timestamp="1582224406405">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="93" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1582223109483" />
-    <state x="490" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582224121862">
+    <state x="275" y="93" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1582224406405" />
+    <state x="490" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582224684723">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="490" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1582224121862" />
+    <state x="490" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1582224684723" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1582222751354">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

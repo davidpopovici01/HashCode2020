@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Library {
@@ -28,6 +29,7 @@ public class Library {
     this.signUpDays = signUpDays;
     this.booksPerDay = booksPerDay;
     books = new ArrayList<>();
+    Collections.sort(books);
   }
 
   public void addBook(Book book) {
